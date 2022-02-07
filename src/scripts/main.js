@@ -63,7 +63,7 @@ function main() {
 
   const getListCountry = (search) => {
     return new Promise((resolve, reject) => {
-      const filteredCountrie = countriesName.filter(countrie => countrie.toLowerCase().includes(search.toLowerCase())).slice(0, 9).sort();
+      const filteredCountrie = countriesName.filter(countrie => countrie.toLowerCase().includes(search.toLowerCase())).slice(0, 12).sort();
       if (filteredCountrie.length) {
         resolve(filteredCountrie);
       } else {

@@ -43,6 +43,9 @@ class SearchBar extends HTMLElement {
           background: white;
           font-size: 0.9rem;
         }
+        #search {
+          cursor: pointer;
+        }
       </style>
 
       <form>
